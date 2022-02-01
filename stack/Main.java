@@ -18,7 +18,7 @@ public class Main {
 		st.add(6);
 		st.add(7);
 		gen.addGroup(st);
-		System.out.println(Generic.<Integer>invertCollection(st).toString());
+		System.out.println(Generic.<Integer>invertCollection(st).toString()); // sorts 2 new objects (6,7) -> (7,6), delete to achieve a normal result
 	}
 
 }
