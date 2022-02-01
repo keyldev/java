@@ -19,7 +19,7 @@ public class Generic<T>{
 
 	public static <T> Collection<T> invertCollection(Collection<T> group){
 		Stack<T> st = (Stack<T>)group;
-		st.sort(Collections.reverseOrder());
+		st.sort(Collections.reverseOrder()); // можешь переписать на свою функцию сортировки. Здесь вроде остаются ток уникальные объекты.
 		return st;
 	}
 	
