@@ -6,8 +6,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Generic<Integer> gen = new Generic<Integer>();
+		gen.addFirst(7);
+		gen.addOne(14);
+		
+		
+		
 		LinkedList<Integer> is = new LinkedList<Integer>();
 		LinkedList<Integer> two = new LinkedList<Integer>();
+		gen.addGroup(two);
+		
 		is.add(1);
 		is.add(2);
 		is.add(3);
